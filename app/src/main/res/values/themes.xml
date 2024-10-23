@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BottomNavigationJava" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/mario_red</item>
+        <item name="colorPrimaryDark">@color/mario_red</item>
+        <item name="colorAccent">@color/mario_yellow</item>
+    </style>
+
+
+    <style name="BottomNavStyle">
+        <item name="android:background">@color/mario_dark_red</item> <!-- Fondo del BottomNavigationView -->
+        <item name="itemIconTint">@color/bottom_text_style</item> <!-- Color de los iconos -->
+        <item name="itemTextColor">@color/white</item> <!-- Color del texto -->
+    </style>
+
+    <style name="Theme.BottomNavigationJava" parent="Base.Theme.BottomNavigationJava" />
+</resources>

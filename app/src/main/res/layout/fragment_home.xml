@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mario_blue">
+
+    <TextView
+        android:id="@+id/text_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido al Mundo de Mario!"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black" />
+
+    <ImageView
+        android:id="@+id/mario_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/text_inicio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/mario" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Preparate para la aventura!"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/mario_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif" />
+</RelativeLayout>

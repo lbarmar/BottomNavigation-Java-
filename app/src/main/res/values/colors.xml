@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mario_red">#E63946</color> <!-- Rojo -->
+    <color name="mario_dark_red">#D62839</color> <!-- Rojo oscuro -->
+    <color name="mario_yellow">#F1C40F</color> <!-- Amarillo -->
+    <color name="mario_blue">#4A90E2</color> <!-- Azul -->
+</resources>

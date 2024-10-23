@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/world_menu"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Mapa" />
+</menu>
